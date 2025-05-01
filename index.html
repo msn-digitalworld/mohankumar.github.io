@@ -1,170 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Name - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="header-container">
+      <img class="header-cloud" src="./assets/cloud1.png" alt="cloud">
+      <div class="header-text">
+        <h1>I'm Mohan Kumar.</h1>
+        <h2>a <span class="pro">full</span>stack developer</h2>
+      </div>
+      <img class="header-cloud2" src="./assets/cloud1.png" alt="cloud">
+      <div class="header-mountain">
+        <img src="./assets/mountain.png" alt="mountain">
+      </div>
+    </div>
+    <div class="summary-container">
+         <img class="profile-img" src="./assets/profile-photo2.png" alt="cloud">
+         <div class="summary-profile">  
+          <h2>Hello</h1>
+          <p class="intro">Results-driven Senior Software Development Engineer with 13+ years of experience in UI development, specializing in Ad Tech, Rich Media Ads, and Web Development. Formerly at Yahoo, where I led the development of custom ad formats, resolved complex technical challenges, and drove impactful digital advertising strategies. Proficient in HTML5, CSS, and JavaScript, with a proven track record of delivering innovative, high-performance ad solutions. Now actively exploring new opportunities to contribute and grow in forward-thinking tech teams.</p>
+         </div>
+    </div>
+    <div class="skills-container">
+      <h2>My Skills</h2>
+      <div class="projects">
+        <div class="skill-img"><img src="./assets/project-img1.jpg" alt="skills"></div>
+        <div class="skill-desc"><h3> Design & Development </h3><p class="intro">I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p></div>
 
-    <header>
-        <div class="container">
-            <h1>Mohan Kumar R</h1>
-            <p>Web Developer</p>
-        </div>
-    </header>
+        <div class="skill-img"><img src="./assets/project-img1.jpg" alt="skills"></div>
+        <div class="skill-desc"><h3> Design & Development </h3><p class="intro">I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p></div>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                Welcome to my portfolio! <br><br>I am a passionate web developer with a focus on creating
-                interactive and user-friendly Rich media creatives. I have 10+ yrs of work experience in Web development, E-Learning, Gaming and Ad Tech using HTML5, CSS, JS & Action Script. Also having good UX experience using Photoshop and 2D animations.
-            </p>
-        </div>
-    </section>
+        <div class="skill-img"><img src="./assets/project-img1.jpg" alt="skills"></div>
+        <div class="skill-desc"><h3> Design & Development </h3><p class="intro">I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p></div>
+        
+       </div> 
+       <hr>
+       <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love hot wings as much as I do.</h3>
+        <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code
+          while we eat hot wings!</p>
+        <a class="btn" href="mailto:ilove@hotwings.com">CONTACT ME</a>
+      </div>
+    </div>
+    <div class="Contact">
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Ad Tech</li>
-                <!-- Add more skills as needed -->
-            </ul>
-        </div>
-    </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 1">
-                <div class="project-details">
-                    <h3>Flash to HTML5 Migration</h3>
-                    <p><li>Client : Yahoo India</li> 
-                    <li>Environment : Flash CS6, HTML5</li>
-                    <li>Description : This project is mainly into converting the Flash files to HTML5 using manual code migration and using conversion Tools</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 2">
-                <div class="project-details">
-                    <h3>Spin the wheel Game</h3>
-                    <p><li>Client : Game Village</li> 
-                    <li>Environment : Adobe Flash CS6 using Action Script 2.0</li>
-                    <li>Description : Spin the wheel is a promo game that has jackpot points. Players will play by spinning the wheel to get prizes based on the probability predefined. This game is normally used for jackpot games and promotion purposes.</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 3">
-                <div class="project-details">
-                    <h3>Red5 Video streaming Player</h3>
-                    <p><li>Client : Soft logic Pvt ltd</li> 
-                    <li>Environment : Adobe Flash CS5 using Action Script 3.0</li>
-                    <li>Description : Video player using Red5 media Server for secure video streaming which is used for Online classes</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 4">
-                <div class="project-details">
-                    <h3>Appreciation Tree corner</h3>
-                    <p><li>TVH</li> 
-                    <li>Environment : Adobe Flash CS5 using Action Script 3.0</li>
-                    <li>Description : This project developed for an Intranet web application. Any Employee in an organization can appreciate his/her Co-Employee and their comments will be displayed as leafs in a tree view structure.</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 5">
-                <div class="project-details">
-                    <h3>Online Banking Calculators</h3>
-                    <p><li>Citibank</li> 
-                    <li>Environment : Adobe Flash CS5 using Action Script 3.0</li>
-                    <li>Description : EMI calculator for Financial websites which dynamically calculates rate of
-interest with principal amount</li>
-                    </p>
-                    </div>
-                </div>
-                <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 6">
-                <div class="project-details">
-                    <h3>Interactive Map</h3>
-                    <p><li>Citibank</li> 
-                    <li>Environment : Adobe Flash CS5 using Action Script 3.0</li>
-                    <li>Description : This is an Interactive Map with global location data of Citibank and customers can easily find the detailed descriptions of a particular on the map</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 7">
-                <div class="project-details">
-                    <h3>Architecture Dynamic Flash website</h3>
-                    <p><li>Xerago</li> 
-                    <li>Environment : Adobe Flash CS4 using Action Script 2.0</li>
-                    <li>Description : This is a Dynamic flash website build for construction projects with attractive image of project highlights,Galleries and recent news</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 8">
-                <div class="project-details">
-                    <h3>Audio Player</h3>
-                    <p><li>Xerago</li> 
-                    <li>Environment : Adobe Flash CS4 using Action Script 3.0</li>
-                    <li>Description : Dynamic Audio player with playlist controls used for listening audios on online</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 9">
-                <div class="project-details">
-                    <h3>Video Player</h3>
-                    <p><li>Xerago</li> 
-                    <li>Environment : Adobe Flash CS4 using Action Script 3.0</li>
-                    <li>Description : Dynamic Video player with multiple playlist controls used for watching Videos on Online, which is used for tutorial as well as Entertainment.</li>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="https://picsum.photos/id/1/200/300.jpg" alt="Project 10">
-                <div class="project-details">
-                    <h3>Image Gallery</h3>
-                    <p><li>Citibank</li> 
-                    <li>Environment : Adobe Flash CS4 using Action Script 3.0</li>
-                    <li>Description : This project consists of Images developed for demo samples presentations</li>
-                    </p>
-                </div>
-            </div>
-            <!-- Add more projects as needed -->
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me via email or through my social media profiles:</p>
-            <ul>
-                <li>Email: mohankumar.mk26@gmail.com</li>
-                <li>LinkedIn: https://www.linkedin.com/in/mohankr26/</li>
-                <li>GitHub: https://github.com/mohankr87/mohankumar.github.io.git</li>
-                <!-- Add more contact information as needed -->
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Mohan Kumar. All rights reserved.</p>
-        </div>
-    </footer>
-
+    </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.com/">Website</a>
+      <p class="copyright">© Angela Yu @ The App Brewery.</p>
+    </div>
+   
 </body>
-</html>
+</html>  
